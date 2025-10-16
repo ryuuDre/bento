@@ -16,38 +16,38 @@
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
 
-  /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  /* Fonts Color - Nord Polar Night */
+  --fg: #2e3440; /* Foreground color - Nord0 */
+  --sfg: #3b4252; /* Secondary Foreground color - Nord1 */
 
-  /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  /* Light Colors - Nord Snow Storm & Frost */
+  --accent: #88c0d0; /* Hover color - Nord8 (Frost) */
+  --background: #eceff4; /* Background color - Nord6 (Snow Storm) */
+  --cards: #e5e9f0; /* Cards color - Nord5 (Snow Storm) */
 
   /* Image background  */
-  --imgbg: url(assets/background.jpg); /* Image URL */
+  --imgbg: url(assets/background.png); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  ); /* Filter color */
+    rgba(236, 239, 244, 0.7),
+    rgba(236, 239, 244, 0.7)
+  ); /* Filter color - Nord6 with transparency */
 }
 
 .darktheme {
-  /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  /* Dark Colors - Nord Polar Night & Frost */
+  --accent: #88c0d0; /* Hover color - Nord8 (Frost) */
+  --background: #2e3440; /* Background color - Nord0 (Polar Night) */
+  --cards: #3b4252; /* Cards color - Nord1 (Polar Night) */
 
-  /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  /* Fonts Color - Nord Snow Storm */
+  --fg: #eceff4; /* Foreground color - Nord6 (Snow Storm) */
+  --sfg: #d8dee9; /* Secondary Foreground color - Nord4 (Snow Storm) */
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
-  ); /* Filter color */
+    rgba(46, 52, 64, 0.85),
+    rgba(46, 52, 64, 0.85)
+  ); /* Filter color - Nord0 with transparency */
 }
 
 /* S T Y L E S */
